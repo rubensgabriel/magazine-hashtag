@@ -1,9 +1,9 @@
-import { atualizarPrecoCarrinho } from "./assets/index-b77a9397.js";
+import { atualizarPrecoCarrinho } from "./src/menuCarrinho";
 import {
     desenharProdutoCarrinhoSimples,
     lerLocalStorage,
     apagarDoLocalStorage, 
-    salvarLocalStorage } from "./assets/index-b77a9397.js";
+    salvarLocalStorage } from "./src/utilidades";
 
 function desenharProdutosCheckout () {
     const idsProdutoCarrinhoComQuantidade = lerLocalStorage('carrinho') ?? {};
